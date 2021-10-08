@@ -1,0 +1,46 @@
+{
+  "_id": "page.form-or-docs",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.form-or-docs--radios.auto_name__1",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.form-or-docs--radios.auto_name__1--radio.auto_value__1",
+          "_type": "radio",
+          "label": "Court Of Protection - Notice of Hearing",
+          "value": "auto_value__1"
+        },
+        {
+          "_id": "page.form-or-docs--radios.auto_name__1--radio.auto_value__2",
+          "_type": "radio",
+          "label": "Court of Protection - Notice of hearing for committal order",
+          "value": "auto_value__2"
+        },
+        {
+          "_id": "page.form-or-docs--radios.auto_name__1--radio.auto_value__3",
+          "_type": "radio",
+          "label": "Supplementary Document(s)",
+          "value": "auto_value__3"
+        },
+        {
+          "_id": "page.form-or-docs--radios.auto_name__1--radio.auto_value__4",
+          "_type": "radio",
+          "label": "Other",
+          "value": "auto_value__4"
+        }
+      ],
+      "legend": "Available Forms",
+      "name": "auto_name__1"
+    }
+  ],
+  "enableSteps": true,
+  "heading": "What are you submitting today?",
+  "lede": "Please select one of the options",
+  "steps": [
+    "page.basic-info",
+    "page.other"
+  ],
+  "url": "form-or-docs"
+}

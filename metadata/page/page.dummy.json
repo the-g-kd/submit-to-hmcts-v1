@@ -1,0 +1,21 @@
+{
+  "_id": "page.dummy",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.dummy--upload.auto_name__4",
+      "_type": "upload",
+      "label": "Supplementary Document(s)",
+      "name": "auto_name__4"
+    }
+  ],
+  "show": {
+    "identifier": "auto_name__1",
+    "operator": "is",
+    "value": "auto_value__3"
+  },
+  "steps": [
+    "page.dummy-check"
+  ],
+  "url": "dummy"
+}

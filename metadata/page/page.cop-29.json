@@ -1,0 +1,107 @@
+{
+  "_id": "page.cop-29",
+  "_type": "page.form",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.cop-29--text.auto_name__5",
+      "_type": "text",
+      "label": "Name",
+      "name": "auto_name__5"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.cop-29--textarea.auto_name__8",
+      "_type": "textarea",
+      "label": "Address",
+      "name": "auto_name__8"
+    },
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.cop-29--inset",
+      "_type": "inset",
+      "html": "This notice is to tell you that the hearing date for the following case has been fixed."
+    },
+    {
+      "_id": "page.cop-29--content",
+      "_type": "content",
+      "html": "### Details of the case ###"
+    },
+    {
+      "_id": "page.cop-29--section",
+      "_type": "section",
+      "components": [
+        {
+          "$component": true,
+          "$control": true,
+          "$definition": true,
+          "$field": true,
+          "_id": "page.cop-29--section--text.auto_name__9",
+          "_type": "text",
+          "label": "Case Number",
+          "name": "auto_name__9"
+        },
+        {
+          "$component": true,
+          "$control": true,
+          "$definition": true,
+          "$field": true,
+          "_id": "page.cop-29--section--text.auto_name__10",
+          "_type": "text",
+          "label": "Application",
+          "name": "auto_name__10"
+        }
+      ]
+    },
+    {
+      "_id": "page.cop-29--content--2",
+      "_type": "content",
+      "html": "### Details of the hearing ###"
+    },
+    {
+      "_id": "page.cop-29--date.auto_name__11",
+      "_type": "date",
+      "legend": "Date",
+      "name": "auto_name__11"
+    },
+    {
+      "_id": "page.cop-29--text.auto_name__12",
+      "_type": "text",
+      "label": "Time",
+      "name": "auto_name__12"
+    },
+    {
+      "_id": "page.cop-29--textarea.auto_name__13",
+      "_type": "textarea",
+      "label": "Location",
+      "name": "auto_name__13"
+    },
+    {
+      "_id": "page.cop-29--warning",
+      "_type": "warning",
+      "html": "Important notice\r\n\r\nThe court has the power to take out an order to send you to prison, fine you, or seize your assets if it finds that any of the allegations made against you are true and amount to a contempt of court.\r\n\r\nYou must attend court on the date shown on this form. It is in your own interest to do so. You should bring with you any witnesses and documents which you think will help you put your side of the case.\r\n\r\nIf you consider the allegations are not true you must tell the court why. If it is established that they are true, you must tell the court of any good reason why they do not amount to a contempt of court, or, if they do, why you\r\nshould not be punished. Your attention is drawn to Part 21 of the Court of Protection Rules 2017 (the Rules) and Practice Direction 21A supplementing the Rules."
+    },
+    {
+      "_id": "page.cop-29--content--3",
+      "_type": "content",
+      "html": "If you have any questions or need further information about the hearing please check the website,\r\nwww.justice.gov.uk or www.direct.gov.uk or contact Court Enquiry Service on 0300 456 4600.\r\n\r\nCourt of Protection staff cannot give legal advice. If you need legal advice please contact a solicitor.\r\n\r\nIf you need any special assistance or facilities to attend the hearing please contact Court Enquiry Service on the number above immediately so that arrangements can be made (if you have not done so already)."
+    }
+  ],
+  "heading": "Notice of hearing for committal order",
+  "lede": "**To** (enter name and address of person to be notified)",
+  "sectionHeading": "Court of Protection",
+  "show": {
+    "identifier": "auto_name__1",
+    "operator": "is",
+    "value": "auto_value__2"
+  },
+  "url": "cop-29"
+}

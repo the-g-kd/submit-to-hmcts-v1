@@ -1,0 +1,7 @@
+{
+  "_id": "page.confirm-main",
+  "_type": "page.confirmation",
+  "heading": "Thank you.",
+  "lede": "We have sent you a copy of the information you entered.",
+  "url": "confirm-main"
+}

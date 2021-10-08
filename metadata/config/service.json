@@ -1,5 +1,7 @@
 {
   "_id": "service",
   "_isa": "@ministryofjustice/fb-components=>service",
-  "_type": "config.service"
+  "_type": "config.service",
+  "emailInputNameUser": "auto_name__7",
+  "name": "Submit to HMCTS"
 }

@@ -1,0 +1,143 @@
+{
+  "_id": "page.cop-28",
+  "_type": "page.form",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.cop-28--text.auto_name__14",
+      "_type": "text",
+      "label": "Name",
+      "name": "auto_name__14"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.cop-28--textarea.auto_name__15",
+      "_type": "textarea",
+      "label": "Address",
+      "name": "auto_name__15"
+    },
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.cop-28--inset",
+      "_type": "inset",
+      "html": "This notice is to tell you that the hearing date for the following case has been fixed."
+    },
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.cop-28--content",
+      "_type": "content",
+      "html": "### Details of the case ###"
+    },
+    {
+      "_id": "page.cop-28--section",
+      "_type": "section",
+      "components": [
+        {
+          "_id": "page.cop-28--section--text.auto_name__16",
+          "_type": "text",
+          "label": "Case Number",
+          "name": "auto_name__16"
+        },
+        {
+          "_id": "page.cop-28--section--text.auto_name__17",
+          "_type": "text",
+          "label": "Applicant",
+          "name": "auto_name__17"
+        },
+        {
+          "_id": "page.cop-28--section--textarea.auto_name__18",
+          "_type": "textarea",
+          "label": "Person to whom the application relates",
+          "name": "auto_name__18"
+        }
+      ]
+    },
+    {
+      "_id": "page.cop-28--content--2",
+      "_type": "content",
+      "html": "### Details of the hearing ###"
+    },
+    {
+      "_id": "page.cop-28--section--2",
+      "_type": "section",
+      "components": [
+        {
+          "_id": "page.cop-28--date.auto_name__19",
+          "_type": "date",
+          "legend": "Date",
+          "name": "auto_name__19"
+        },
+        {
+          "_id": "page.cop-28--text.auto_name__20",
+          "_type": "text",
+          "label": "Time",
+          "name": "auto_name__20"
+        },
+        {
+          "_id": "page.cop-28--section--2--textarea.auto_name__21",
+          "_type": "textarea",
+          "label": "Location",
+          "name": "auto_name__21"
+        },
+        {
+          "_id": "page.cop-28--section--2--checkboxes",
+          "_type": "checkboxes",
+          "items": [
+            {
+              "_id": "page.cop-28--section--2--checkboxes--checkbox.auto_name__22",
+              "_type": "checkbox",
+              "label": "directions",
+              "name": "auto_name__22"
+            },
+            {
+              "_id": "page.cop-28--section--2--checkboxes--checkbox.auto_name__23",
+              "_type": "checkbox",
+              "label": "disposing of the matter",
+              "name": "auto_name__23"
+            },
+            {
+              "_id": "page.cop-28--section--2--checkboxes--checkbox.auto_name__24",
+              "_type": "checkbox",
+              "hint": "Use the box below to provide information about what the hearing is for. ",
+              "label": "Other",
+              "name": "auto_name__24"
+            }
+          ],
+          "legend": "The hearing is for"
+        },
+        {
+          "_id": "page.cop-28--section--2--text.auto_name__25",
+          "_type": "text",
+          "name": "auto_name__25",
+          "validation": {
+            "required": false
+          }
+        }
+      ]
+    },
+    {
+      "_id": "page.cop-28--content--3",
+      "_type": "content",
+      "html": "If you have any questions or need further information please check the website, www.justice.gov.uk or\r\nwww.direct.gov.uk or contact Court Enquiry Service on 0300 456 4600.\r\n\r\nIf you are attending the hearing and you need any special assistance or facilities please contact Court Enquiry\r\nService on the above number immediately so that arrangements can be made (if you have not done so already)."
+    }
+  ],
+  "heading": "Notice of hearing",
+  "lede": "**To** (enter name and address of person to be notified)",
+  "sectionHeading": "Court of Protection",
+  "show": {
+    "identifier": "auto_name__1",
+    "operator": "is",
+    "value": "auto_value__1"
+  },
+  "url": "cop-28"
+}

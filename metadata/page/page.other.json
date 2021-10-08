@@ -1,0 +1,12 @@
+{
+  "_id": "page.other",
+  "_type": "page.exit",
+  "heading": "For other forms",
+  "lede": "Please visit www.gov.uk for all other forms.",
+  "show": {
+    "identifier": "auto_name__1",
+    "operator": "is",
+    "value": "auto_value__4"
+  },
+  "url": "other"
+}
